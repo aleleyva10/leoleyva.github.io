@@ -33,6 +33,10 @@ h1 {
     /*border-top: 1px solid #000000;*/
 }
 
+#skills-summary {
+    padding-right:15px;
+}
+
 .exp {
     margin-top: 18px;
     margin-left: 30px;
