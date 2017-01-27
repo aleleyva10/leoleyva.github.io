@@ -1,3 +1,7 @@
+body {
+    background-color: #eae8e7;
+}
+
 #headshot {
     width: 150px;
     height: 150px;
@@ -10,14 +14,35 @@
     margin-left:auto;
     margin-right:auto;
     margin-top: 10px;
+    background-color:#ffffff;
+}
+
+.paper {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
+  border-color: #dedede;
+  
 }
 
 #experience, #skills-summary, #education {
-    margin-top: 30px;
+    margin-top: 10px;
     /*border-top: 1px solid #000000;*/
 }
 
 .exp {
-    margin-top: 20px;
+    margin-top: 18px;
+    margin-left: 30px;
+}
 
+.footer {
+    min-height:120px;
+    height:120px;
+}
+
+.inset {
+    margin: 20px 30px 20px 30px;
+}
+
+h3 {
+    color: #5da4d9;
+    margin-top:10px;
 }
